@@ -7,7 +7,7 @@ public class CreateFile {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			File f = new File("text.txt");
+			File f = new File("test.txt");
 			if (f.createNewFile()) {
 				System.out.println("파일 생성" + f.getName());
 			} else {
